@@ -1,3 +1,6 @@
+console.log("OBJECT AND ARRAY DESTRUCTURE");
+
+
 const id = 1;
 const productName = "Product Apple Watch";
 const rating = 5;
