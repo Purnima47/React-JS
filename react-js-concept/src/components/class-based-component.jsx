@@ -71,10 +71,8 @@ class ClassBasedComponent extends Component {
     }
   }
 
-
   componentWillUnmount() {
     console.log('componet will be unmounted');
-
   }
 
   render() {
