@@ -54,15 +54,18 @@ class ClassBasedComponent extends Component {
   }
 
   handleCount = () => {
+    
     this.setState({
       ...this.state,
       count: this.state.count + 1,
     })
+
   }
 
   componentDidUpdate(prevProps, prevState) {
     // console.log(prevProps, prevState);
     console.log(prevState, this.state);
+    
     if (prevState && prevState.count !== this.state.count && this.state.count === 10) {
       this.setState({
         ...this.state,
