@@ -3,7 +3,6 @@ import ProductList from './components/products'
 import ClassBasedComponent from './components/class-based-component'
 import FunctionComponent from './components/functional-component'
 
-
 // App --> product list --> product item --> button component (nested component)
 
 
