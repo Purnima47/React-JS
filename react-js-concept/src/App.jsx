@@ -8,7 +8,6 @@ import FunctionComponent from './components/functional-component'
 
 const dummyProductData = ['P1', 'P2', 'P3'];
 
-
 function App() {
   return (
     <div>
