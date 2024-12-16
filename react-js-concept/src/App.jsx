@@ -5,7 +5,6 @@ import FunctionComponent from './components/functional-component'
 
 // App --> product list --> product item --> button component (nested component)
 
-
 const dummyProductData = ['P1', 'P2', 'P3'];
 
 function App() {
