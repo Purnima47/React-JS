@@ -5,6 +5,10 @@ import FunctionComponent from './components/functional-component'
 import Users from './components/users';
 import ContextButtonComponent from './components/context-concept/button';
 import ContextTextComponent from './components/context-concept/text';
+import UseReducer from './components/use-reducer-example';
+import FormComponent from './components/form';
+import LoginComponent from './components/login';
+import RegisterComponent from './components/register';
 
 // App --> product list --> product item --> button component (nested component)
 
@@ -19,8 +23,14 @@ function App() {
 
       {/* <ProductList dummyProductData={dummyProductData} name="Purnima" city="Mirzapur" /> */}
       {/* {<Users />} */}
-      <ContextButtonComponent />
-      <ContextTextComponent />
+      {/* <ContextButtonComponent /> */}
+      {/* <ContextTextComponent /> */}
+      {/* <UseReducer /> */}.
+      {/* <FormComponent /> */}
+      <div style={{display:'flex', gap:'20px'}}>
+        <LoginComponent />
+        <RegisterComponent />
+      </div>
     </div>
   )
 }

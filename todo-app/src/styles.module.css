@@ -1,0 +1,32 @@
+.mainWrapper {
+    padding: 50px;
+}
+
+.headerTitle {
+    font-size: 25px;
+}
+
+
+.todoListWrapper {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 1060px) {
+    .todoListWrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .todoListWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .todoListWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
