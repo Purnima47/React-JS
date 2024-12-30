@@ -9,6 +9,8 @@ import Layout from './component/layout'
 import ReactHookFormEx from './pages/react-hook-form-example'
 import Hooks from './pages/hooks'
 import UseMemoExample from './pages/use-memo-example'
+import UseCallBackEx from './pages/use-callback-example'
+import ReactQueryDemo from './pages/react-query'
 
 function CustomRoutes() {
   const element = useRoutes([
@@ -40,6 +42,14 @@ function CustomRoutes() {
     {
       path: '/memo',
       element: <UseMemoExample />
+    },
+    {
+      path: '/callback',
+      element: <UseCallBackEx />
+    },
+    {
+      path: '/react-query-demo',
+      element: <ReactQueryDemo />
     }
   ])
 

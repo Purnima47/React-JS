@@ -11,6 +11,12 @@ const LoginComponent = () => {
 
     const [loginFormData, setLoginFormData] = useState(initialFormData);
 
+    function onHandleSubmit(event) {
+        event.preventDefault();
+        console.log(loginFormData, "loginFormData");
+
+    }
+
     return (
         <div>
             <h1>Login page/component</h1>

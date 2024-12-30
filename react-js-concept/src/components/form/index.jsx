@@ -15,15 +15,6 @@ const FormComponent = () => {
         setNameVal(value);
     }
 
-    function handleSubmit(event) {
-        event.preventDefault();
-
-        // call the API and pass the name value
-        console.log(nameVal, "nameVal");
-        console.log(emailVal, "emailVal");
-
-    }
-
     function handleEmailChange(event) {
         const { value } = event.target;
         setEmailVal(value);
@@ -36,6 +27,15 @@ const FormComponent = () => {
             ...formData,
             [name]: value,
         })
+    }
+
+    function handleSubmit(event) {
+        event.preventDefault();
+
+        // call the API and pass the name value
+        console.log(nameVal, "nameVal");
+        console.log(emailVal, "emailVal");
+
     }
 
     console.log(formData);
@@ -74,4 +74,4 @@ const FormComponent = () => {
     )
 }
 
-export default FormComponent
+export default FormComponent;

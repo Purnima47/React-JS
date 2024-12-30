@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CommonInput = ({ label, name, placeholder, value, onChange, id, type }) => {
     return (
         <div>
@@ -13,7 +11,7 @@ const CommonInput = ({ label, name, placeholder, value, onChange, id, type }) =>
                 onChange={onChange}
             />
         </div>
-    )
+    );
 }
 
-export default CommonInput
+export default CommonInput;
