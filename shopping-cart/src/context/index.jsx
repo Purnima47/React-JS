@@ -36,7 +36,6 @@ function ShoppingCartProvider({ children }) {
     console.log(listOfProducts);
 
 
-
     return (
         < ShoppingCartContext.Provider
             value={{
