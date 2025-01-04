@@ -15,7 +15,7 @@ function ShoppingCartProvider({ children }) {
     const [loading, setLoading] = useState(true);
     const [listOfProducts, setListOfProducts] = useState([]);
     const [productDetails, setProductDetails] = useState(null);
-    
+
 
     async function fetchProductList() {
         const res = await fetch('https://dummyjson.com/products')
@@ -43,7 +43,8 @@ function ShoppingCartProvider({ children }) {
                 loading,
                 productDetails,
                 setProductDetails
-            }} >
+            }}
+        >
             {children}
         </ShoppingCartContext.Provider >
     );
