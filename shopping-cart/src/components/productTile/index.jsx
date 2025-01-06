@@ -12,12 +12,14 @@ const ProductTile = ({ singleProdTile }) => {
 
   return (
     <div className='relative group border border-cyan-700 p-6 cursor-pointer'>
+
       <div className='overflow-hidden aspect-w-1 aspect-h-1'>
         <img src={singleProdTile?.thumbnail} alt={singleProdTile?.title}
           className='object-cover w-full h-full transition-all duration-300 group-hover:scale-125' />
       </div>
 
       <div className='flex items-start justify-between mt-4 space-x-4'>
+
         <div className='font-bold sm:text-sm text-xs md:text-base'>
           <p className='w-[100px] overflow-hidden text-ellipsis whitespace-nowrap'>{singleProdTile?.title}</p>
         </div>
