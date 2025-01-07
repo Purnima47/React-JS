@@ -38,4 +38,4 @@ const ProductTile = ({ singleProdTile }) => {
   )
 }
 
-export default ProductTile
+export default ProductTile;
