@@ -30,7 +30,8 @@ const ProductTile = ({ singleProdTile }) => {
 
       </div>
 
-      <button onClick={() => handleNavigateToProdDetailPage(singleProdTile?.id)} className='px-5 mt-5 w-full py-2 rounded-none bg-white text-black font-bold text-lg'>
+      <button onClick={() => handleNavigateToProdDetailPage(singleProdTile?.id)}
+        className='px-5 mt-5 w-full py-2 rounded-none bg-white text-black font-bold text-lg'>
         View Details
       </button>
 
