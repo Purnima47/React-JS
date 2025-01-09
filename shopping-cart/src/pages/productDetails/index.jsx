@@ -15,6 +15,7 @@ const ProductDetailsPage = () => {
     if (data) {
       setProductDetails(data);
     }
+    
   }
 
   useEffect(() => {
